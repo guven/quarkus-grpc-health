@@ -52,11 +52,10 @@
                     </execution>
                 </executions>
             </plugin>
-            <!--
             <plugin>
                 <groupId>io.smallrye</groupId>
                 <artifactId>jandex-maven-plugin</artifactId>
-                <version>${jandex.version}</version>
+                <version>3.1.1</version>
                 <executions>
                     <execution>
                         <id>make-index</id>
@@ -66,7 +65,6 @@
                     </execution>
                 </executions>
             </plugin>
-            -->
         </plugins>
     </build>
 
